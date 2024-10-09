@@ -1,9 +1,12 @@
 # Send Arcade
 <img src="https://github.com/user-attachments/assets/5b4802a9-9868-422c-90aa-3375c0d183ab" alt="v2 (2)" width="200">
 
-### Blinks Arcade building games on Sonic.
+Send Arcade leverages the power of blinks to build gaming/gamification consumer products.
+We started with shipping games on blinks to build our userbase. 
+We are now expanding to building a full-fledged gaming platform that uses the teleporting capabilities of blinks.
 
 ## Checkmate
+[https://github.com/SendArcade/Checkmate](https://github.com/SendArcade/Checkmate)
 
 The first-ever community chess game on Twitter/X, powered by Blinks.
 
@@ -24,6 +27,7 @@ Higher winning odds → Higher bet amount.
 4. All pooled funds are distributed to the winning side after the game ends.
 
 ## Snakes & Ladders
+[https://github.com/SendArcade/SnakesNLadders](https://github.com/SendArcade/SnakesNLadders)
 
 Introducing Snakes and Ladders powered by Blinks.
 
@@ -36,3 +40,5 @@ Introducing Snakes and Ladders powered by Blinks.
 
 –– Your team also gets additional prizes (e.g., BONK) as shown on the board. 
 –– A new game begins as soon as the current one ends.
+
+
