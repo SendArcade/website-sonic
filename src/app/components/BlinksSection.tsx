@@ -53,7 +53,9 @@ const BlinksSection = () => {
         height={240}
       /> */}
 
-      <p className="text-[94px] text-center pt-24">Games on Sonic</p>
+      <p className="text-[48px] sm:text-[64px] md:text-[72px] lg:text-[80px] xl:text-[94px] text-center pt-24">
+        Games on Sonic Frontier
+      </p>
 
       {/* Grid layout for 3 items per row */}
       {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 w-full max-w-7.5xl p-20">
@@ -66,7 +68,8 @@ const BlinksSection = () => {
       </div> */}
 
       {/* Grid layout for 3 items per row */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 w-full max-w-7.5xl xl:p-20 p-4">
+      {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 w-full max-w-7.5xl xl:p-20 p-4"> */}
+      <div className={`grid ${games.length === 1 ? 'grid-cols-1' : games.length === 2 ? 'grid-cols-1 md:grid-cols-2 xl:pl-40 xl:pr-40 2xl:pl-72 2xl:pr-72 gap-4 xl:gap-16' : 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:pl-20 xl:pr-20 gap-4 xl:gap-12'} w-full max-w-7.5xl p-4 justify-center xl:pt-8`}>
         {games.map((game, index) => (
           <div key={index}>
             <p className="text-[42px] leading-none text-center mb-8">{game.title}</p>
@@ -74,19 +77,19 @@ const BlinksSection = () => {
 
             {/* Game Mechanics Text */}
             <div className="hidden md:block">
-              <Dialog>
+              <Dialog>  
                 <DialogTrigger>
                   <p
                     className="text-[36px] text-center mt-4 cursor-pointer hover:underline"
                   >
-                    Game Mechanics ➪
+                    ➪ Game Mechanics
                   </p>
                 </DialogTrigger>
 
-                <DialogContent className="bg-[#1C71FF]">
+                <DialogContent className="bg-[#1C71FF] max-h-[800px] overflow-y-auto">
                   <div className="flex flex-col text-white">
                     <div className="flex justify-between align-top ">
-                      <div className="text-[42px]"> {game.title} </div>
+                      <div className="text-[42px] pb-4">{game.title}</div>
                       <DialogClose>
                         <Image
                           className="w-8 h-8"
@@ -97,7 +100,7 @@ const BlinksSection = () => {
                         />
                       </DialogClose>
                     </div>
-                    <div className="text-[24px]">{game.description}</div>
+                    <div className="text-[24px] whitespace-pre-line leading-tight">{game.description}</div>
                   </div>
                 </DialogContent>
               </Dialog>
