@@ -100,7 +100,7 @@ const BlinksSection = () => {
                         />
                       </DialogClose>
                     </div>
-                    <div className="text-[24px] whitespace-pre-line leading-none">{game.description}</div>
+                    <div className="text-[24px] whitespace-pre-line pb-4 leading-none">{game.description}</div>
                   </div>
                 </DialogContent>
               </Dialog>
