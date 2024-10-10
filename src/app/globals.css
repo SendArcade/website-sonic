@@ -10,6 +10,18 @@ body {
   overflow-x: hidden !important;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+
+.background-image {
+  width: 100%;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

@@ -64,10 +64,10 @@ const HeroSection = () => {
           </div>
         </div> */}
       </div>
-      <div className="absolute z-0 flex flex-row items-center gap-[200px] w-full justify-center">
+      {/* <div className="absolute z-0 flex flex-row items-center gap-[200px] w-full justify-center">
         <SparklesSVG />
         <EyesSVG />
-      </div>
+      </div> */}
       {/* <div className="-scale-y-100 -rotate-180 transform"> */}
       <div>
         <RightBackgroundSVG />
@@ -110,7 +110,8 @@ export const SendArcadeSVG = () => {
   return (
     // <div className="w-[254px] h-[110px] lg:w-[666px] lg:h-[290px]">
     // <div className="w-[400px] h-[200px] lg:w-[800px] lg:h-[400px]">
-    <div className="md:w-[2000px] md:h-[1000px] lg:w-[3000px] lg:h-[1500px] xl:w-[4000px] xl:h-[2000px]">
+    // <div className="md:w-[2000px] md:h-[1000px] lg:w-[3000px] lg:h-[1500px] xl:w-[4000px] xl:h-[2000px]">
+    <div className="w-full h-auto max-w-full overflow-hidden">
       <svg
         className="w-full h-full"
         width="1946"
