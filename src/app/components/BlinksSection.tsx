@@ -53,7 +53,7 @@ const BlinksSection = () => {
         height={240}
       /> */}
 
-      <p className="text-[48px] sm:text-[64px] md:text-[72px] lg:text-[80px] xl:text-[94px] text-center pt-24 leading-none">
+      <p className="text-[56px] sm:text-[64px] md:text-[72px] lg:text-[80px] xl:text-[94px] text-center pt-24 leading-none">
         Games on Sonic Frontier
       </p>
 
