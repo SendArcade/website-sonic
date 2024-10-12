@@ -10,7 +10,7 @@ const HeroSection = () => {
       </div>
 
       <div className="items-center absolute gap-[24px] w-full lg:gap-14 justify-center flex flex-col">
-        <div className="relative z-0 -mt-16 sm:-mt-24 lg:-mt-48">
+        <div className="relative z-0 -mt-16 sm:-mt-24 lg:-mt-48 scale-125 sm:scale-100">
           <SendArcadeSVG />
         </div>
         {/* <div className="flex flex-row items-center gap-4 lg:gap-10 absolute z-10 mt-60"> */}
@@ -40,10 +40,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      {/* <div className="absolute z-0 flex flex-row items-center gap-[200px] w-full justify-center">
-        <SparklesSVG />
-        <EyesSVG />
-      </div> */}
       {/* <div className="-scale-y-100 -rotate-180 transform"> */}
       <div>
         <RightBackgroundSVG />
@@ -105,182 +101,6 @@ export const SendArcadeSVG = () => {
         <stop offset="1" stop-color="#ADE1FB" stop-opacity="0"/>
         </radialGradient>
         </defs>
-      </svg>
-    </div>
-  );
-};
-
-export const EyesSVG = () => {
-  return (
-    <div>
-      <svg
-        width="551"
-        height="473"
-        viewBox="0 0 551 473"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M446.048 0.428589V26.6667H419.81V52.9048H393.571V79.1429H419.81V210.333H314.857V184.095H288.619V341.524H314.857V394H341.095V420.238H367.333V446.476H314.857V420.238H288.619V367.762H262.381V105.381H288.619V52.9048H314.857V26.6667H393.571V0.428589H446.048Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M209.905 52.9048H262.381V105.381H236.143V79.1429H209.905V52.9048Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M183.667 26.6667H209.905V52.9048H183.667V26.6667Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M157.429 26.6667V0.428589H183.667V26.6667H157.429Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M26.2381 210.333V79.1429H52.4762V26.6667H157.429V52.9048H131.19V79.1429H157.429V210.333H26.2381Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M26.2381 315.286H0V210.333H26.2381V315.286Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M52.4762 394H26.2381V315.286H52.4762V394Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M78.7143 420.238H52.4762V394H78.7143V420.238Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M104.952 446.476H78.7143V420.238H104.952V446.476Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M236.143 420.238V472.714H104.952V446.476H209.905V420.238H236.143Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M236.143 420.238H262.381V367.762H236.143V420.238Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M472.286 446.476V472.714H367.333V446.476H472.286Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M498.524 420.238V446.476H472.286V420.238H498.524Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M524.762 341.524V420.238H498.524V341.524H524.762Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M498.524 79.1429H524.762V131.619H551V341.524H524.762V157.857H498.524V79.1429Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M472.286 52.9048H498.524V79.1429H472.286V52.9048Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M472.286 52.9048V26.6667H446.048V52.9048H472.286Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-      </svg>
-    </div>
-  );
-};
-const SparklesSVG = () => {
-  return (
-    <div>
-      <svg
-        width="605"
-        height="579"
-        viewBox="0 0 605 579"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M447.174 0H473.478V78.913H447.174L447.174 131.522H420.87V52.6087H447.174V0Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M394.565 184.13V131.522H420.87V184.13H394.565Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M341.957 236.739V210.435H368.261V184.13H394.565V236.739H341.957Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
-          d="M368.261 315.652V263.043H341.957V236.739L315.652 236.739V210.435H263.043V184.13H236.739L236.739 105.217H210.435V26.3043H157.826V105.217H131.522V157.826H105.217V184.13H78.913V210.435H52.6087V236.739L0 236.739V263.043H52.6087V289.348H78.913L78.913 315.652H105.217V368.261H131.522V447.174H157.826V552.391H184.13V578.696H210.435V447.174H236.739V368.261H263.043V315.652H315.652V289.348H341.957V315.652H368.261ZM263.043 315.652H236.739L236.739 368.261H210.435V447.174H184.13V420.87H157.826V368.261H131.522V315.652H105.217V289.348H78.913V263.043H52.6087V236.739H78.913L78.913 210.435H105.217V184.13H131.522V157.826H157.826V105.217H210.435V184.13H236.739V210.435H263.043V236.739L289.348 236.739V289.348H263.043V315.652Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M394.565 368.261H368.261V315.652H394.565V368.261Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M420.87 447.174H394.565V368.261H420.87V447.174Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M473.478 447.174V578.696H420.87V447.174L473.478 447.174Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M499.783 368.261V447.174L473.478 447.174V368.261H499.783Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M552.391 289.348V341.957H526.087V368.261H499.783V315.652H526.087V289.348H552.391Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M526.087 210.435H552.391V236.739H578.696V263.043H605V289.348H552.391L552.391 263.043H526.087V210.435Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M499.783 184.13H526.087V210.435H499.783V184.13Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M499.783 184.13V78.913L473.478 78.913V184.13H499.783Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
       </svg>
     </div>
   );
