@@ -82,7 +82,7 @@ const BlinksSection = () => {
                   <p
                     className="text-[36px] text-center mt-4 cursor-pointer hover:underline"
                   >
-                    ➪ Game Mechanics
+                    Game Mechanics ➪
                   </p>
                 </DialogTrigger>
 

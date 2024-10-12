@@ -10,59 +10,35 @@ const HeroSection = () => {
       </div>
 
       <div className="items-center absolute gap-[24px] w-full lg:gap-14 justify-center flex flex-col">
-        <div className="z-10">
+        <div className="relative z-0 -mt-16 sm:-mt-24 lg:-mt-48">
           <SendArcadeSVG />
         </div>
-        {/* <div className="flex flex-row items-center gap-4 lg:gap-10 mt-40 z-20">
-          <div className="relative inline-block cursor-pointer">
+        {/* <div className="flex flex-row items-center gap-4 lg:gap-10 absolute z-10 mt-60"> */}
+        {/* <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-10 absolute top-0 sm:top-20 lg:top-40 z-10 transform translate-y-[-10%] sm:translate-y-0"> */}
+        <div className="flex flex-row items-center mr-2 sm:mr-8 gap-2 sm:gap-4 lg:gap-6 absolute mt-16 sm:mt-0 sm:bottom-20 sm:top-44 md:top-52 lg:top-48 xl:top-60 2xl:top-80 z-10">
+          <div className="inline-block cursor-pointer">
             <a
-              href="#tracks"
-              className=" text-[24px] lg:text-[42px] bg-white text-[#1C71FF] border-[6px] lg:border-[12px] border-[#699EFF] px-4 lg:px-6 py-4"
-            >
-              View Tracks
-            </a>
-            <span className="absolute top-0 left-0 h-[6px] lg:h-[12px] w-[6px] lg:w-[12px] bg-[#699EFF]" />
-            <span className="absolute top-0 right-0 h-[6px] lg:h-[12px] w-[6px] lg:w-[12px] bg-[#699EFF]" />
-            <span className="absolute bottom-0 left-0 h-[6px] lg:h-[12px] w-[6px] lg:w-[12px] bg-[#699EFF]" />
-            <span className="absolute bottom-0 right-0 h-[6px] lg:h-[12px] w-[6px] lg:w-[12px] bg-[#699EFF]" />
-            <span className="absolute top-0 left-0 h-[6px] lg:h-[12px] w-[6px] lg:w-[12px] bg-[#1C71FF]" />
-            <span className="absolute top-0 right-0 h-[6px] lg:h-[12px] w-[6px] lg:w-[12px] bg-[#1C71FF]" />
-            <span className="absolute bottom-0 left-0 h-[6px] lg:h-[12px] w-[6px] lg:w-[12px] bg-[#1C71FF]" />
-            <span className="absolute bottom-0 right-0 h-[6px] lg:h-[12px] w-[6px] lg:w-[12px] bg-[#1C71FF]" />
-          </div>
-          <div className="relative inline-block cursor-pointer">
-            <Link href="/results">
-              <div className=" text-[24px] lg:text-[42px] bg-white text-[#1C71FF] border-[6px] lg:border-[12px] border-[#699EFF] px-4 lg:px-6 py-2">
-                View Results
-              </div>
-            </Link>
-            <span className="absolute top-0 left-0 h-[6px] lg:h-[12px] w-[6px] lg:w-[12px] bg-[#699EFF]" />
-            <span className="absolute top-0 right-0 h-[6px] lg:h-[12px] w-[6px] lg:w-[12px] bg-[#699EFF]" />
-            <span className="absolute bottom-0 left-0 h-[6px] lg:h-[12px] w-[6px] lg:w-[12px] bg-[#699EFF]" />
-            <span className="absolute bottom-0 right-0 h-[6px] lg:h-[12px] w-[6px] lg:w-[12px] bg-[#699EFF]" />
-            <span className="absolute top-0 left-0 h-[6px] lg:h-[12px] w-[6px] lg:w-[12px] bg-[#1C71FF]" />
-            <span className="absolute top-0 right-0 h-[6px] lg:h-[12px] w-[6px] lg:w-[12px] bg-[#1C71FF]" />
-            <span className="absolute bottom-0 left-0 h-[6px] lg:h-[12px] w-[6px] lg:w-[12px] bg-[#1C71FF]" />
-            <span className="absolute bottom-0 right-0 h-[6px] lg:h-[12px] w-[6px] lg:w-[12px] bg-[#1C71FF]" />
-          </div>
-          <div className="relative inline-block cursor-pointer">
-            <a
-              href="https://t.me/blinkathon"
+              href="https://x.com/send_arcade"
               target="_blank"
-              className="text-[24px] lg:text-[42px] bg-[#1D41B9] text-white border-[6px] lg:border-[12px] border-[#699EFF] px-4 lg:px-6 py-4"
+              rel="noopener noreferrer"
+              // className="text-[24px] lg:text-[42px] bg-[#1D41B9] text-white border-[6px] lg:border-[12px] border-[#699EFF] px-4 lg:px-6 py-4"
+              className="text-[18px] sm:text-[24px] lg:text-[42px] bg-[#1D41B9] text-white border-[4px] sm:border-[6px] lg:border-[12px] border-[#699EFF] px-2 sm:px-4 lg:px-6 py-2 sm:py-4"
             >
-              Join Telegram
+              Twitter/X
             </a>
-            <span className="absolute top-0 left-0 h-[6px] lg:h-[12px] w-[6px] lg:w-[12px] bg-[#699EFF]" />
-            <span className="absolute top-0 right-0 h-[6px] lg:h-[12px] w-[6px] lg:w-[12px] bg-[#699EFF]" />
-            <span className="absolute bottom-0 left-0 h-[6px] lg:h-[12px] w-[6px] lg:w-[12px] bg-[#699EFF]" />
-            <span className="absolute bottom-0 right-0 h-[6px] lg:h-[12px] w-[6px] lg:w-[12px] bg-[#699EFF]" />
-            <span className="absolute top-0 left-0 h-[6px] lg:h-[12px] w-[6px] lg:w-[12px] bg-[#1C71FF]" />
-            <span className="absolute top-0 right-0 h-[6px] lg:h-[12px] w-[6px] lg:w-[12px] bg-[#1C71FF]" />
-            <span className="absolute bottom-0 left-0 h-[6px] lg:h-[12px] w-[6px] lg:w-[12px] bg-[#1C71FF]" />
-            <span className="absolute bottom-0 right-0 h-[6px] lg:h-[12px] w-[6px] lg:w-[12px] bg-[#1C71FF]" />
           </div>
-        </div> */}
+          <div className="inline-block cursor-pointer">
+            <a
+              href="https://t.me/thesendcoinsolana"
+              target="_blank"
+              rel="noopener noreferrer"
+              // className="text-[24px] lg:text-[42px] bg-white text-[#1C71FF] border-[6px] lg:border-[12px] border-[#699EFF] px-4 lg:px-6 py-4"
+              className="text-[18px] sm:text-[24px] lg:text-[42px] bg-white text-[#1C71FF] border-[4px] sm:border-[6px] lg:border-[12px] border-[#699EFF] px-2 sm:px-4 lg:px-6 py-2 sm:py-4"
+            >
+              Telegram
+            </a>
+          </div>
+        </div>
       </div>
       {/* <div className="absolute z-0 flex flex-row items-center gap-[200px] w-full justify-center">
         <SparklesSVG />
